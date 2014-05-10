@@ -11,16 +11,39 @@ body {
 .main-body {
 	margin: 0;
 	text-align: center;
+	font-family: Helvetica, sans-serif;
 	font-size: 30px;
 	color: white;
 }
 
 .image {
-	text-align: center;
+	text-align: center
 }
 
 img {
-	max-width: 200px;
+	margin: 0;
+	max-width: 400px;
 	width: 100%;
 	padding: 10px;
+}
+
+.cta {
+	border: 1px dashed white;
+	text-align: center;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	background: #6892EB;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	display: inline-block;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+a:visited {
+	color: white;
 }
